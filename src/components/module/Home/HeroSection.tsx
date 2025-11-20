@@ -19,7 +19,7 @@ const Hero = ({ onFindDoctor, onBookAppointment, onAISubmit }: HeroProps) => {
         className="absolute inset-0 z-0"
         style={{
           background:
-            "radial-gradient(125% 125% at 50% 90%, var(--card) 30%, var(--primary) 100%)",
+            "radial-gradient(125% 125% at 50% 90%, var(--card) 35%, var(--primary) 100%)",
           // fallback color in case CSS variables not available
           backgroundColor: "var(--background)",
         }}

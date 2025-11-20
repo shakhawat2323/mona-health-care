@@ -97,7 +97,7 @@ export default function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden sm:flex items-center gap-2">
               <Button asChild variant="ghost" size="sm" className="text-sm text-[color:var(--foreground)]">
-                <Link href="/signin">Sign In</Link>
+                <Link href="/login">Sign In</Link>
               </Button>
         
             </div>
@@ -137,7 +137,7 @@ export default function Navbar() {
                       <div className="mt-2 flex gap-2">
                     
                         <Button asChild variant="ghost" size="sm" className="w-full text-[color:var(--foreground)]">
-                          <Link href="/signin">Sign In</Link>
+                          <Link href="/login">Sign In</Link>
                         </Button>
                       </div>
                     </div>
